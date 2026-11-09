@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "curses_antidote:item/next_time"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "curses_antidote:mode": 0.5
+      },
+      "model": "curses_antidote:item/so_strong"
+    },
+    {
+      "predicate": {
+        "curses_antidote:mode": 1.0
+      },
+      "model": "curses_antidote:item/man"
+    }
+  ]
+}
