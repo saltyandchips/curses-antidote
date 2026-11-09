@@ -1,0 +1,12 @@
+{
+  "item.curses_antidote.curses_antidote": "Curses Antidote",
+  "item.curses_antidote.curses_antidote.0": "Maybe Next Time",
+  "item.curses_antidote.curses_antidote.1": "?! That Strong?!",
+  "item.curses_antidote.curses_antidote.2": "Man",
+  "tooltip.curses_antidote.mode.0": "Maybe Next Time",
+  "tooltip.curses_antidote.mode.0.desc": "Thanks, maybe next time.",
+  "tooltip.curses_antidote.mode.1": "?! That Strong?!",
+  "tooltip.curses_antidote.mode.1.desc": "Curses intensified, double rewards.",
+  "tooltip.curses_antidote.mode.2": "Man",
+  "tooltip.curses_antidote.mode.2.desc": "You were born to play this."
+}

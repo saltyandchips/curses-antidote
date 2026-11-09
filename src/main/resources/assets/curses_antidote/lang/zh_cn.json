@@ -1,0 +1,12 @@
+{
+  "item.curses_antidote.curses_antidote": "七咒解毒剂",
+  "item.curses_antidote.curses_antidote.0": "下次一定",
+  "item.curses_antidote.curses_antidote.1": "！？这么强？！",
+  "item.curses_antidote.curses_antidote.2": "Man",
+  "tooltip.curses_antidote.mode.0": "下次一定",
+  "tooltip.curses_antidote.mode.0.desc": "谢谢，下次一定",
+  "tooltip.curses_antidote.mode.1": "！？这么强？！",
+  "tooltip.curses_antidote.mode.1.desc": "诅咒加强，双倍奖励",
+  "tooltip.curses_antidote.mode.2": "Man",
+  "tooltip.curses_antidote.mode.2.desc": "你天生就是玩这个的"
+}

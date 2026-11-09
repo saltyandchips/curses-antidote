@@ -1,0 +1,8 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { name = 'NeoForged'; url = 'https://maven.neoforged.net/releases' }
+        mavenCentral()
+    }
+}
+rootProject.name = 'seven-curses-antidote-neoforge1211'

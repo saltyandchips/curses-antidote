@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+def modVersion = '1.0.0'
+
+version = modVersion
+group = 'cn.blockforge.curses_antidote'
+base { archivesName = 'curses_antidote' }
+
+tasks.withType(Jar).configureEach {
+    archiveVersion = "neoforge1.21.1-${modVersion}"
+    exclude '**/*.java'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = '21.1.255'
+    runs {
+        client { client() }
+        server { server() }
+    }
+    mods {
+        curses_antidote { sourceSet sourceSets.main }
+    }
+}
+
+dependencies {
+    compileOnly files('libs/curios-neoforge-9.5.1+1.21.1.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+processResources {
+    def props = [mod_id: 'curses_antidote', mod_name: 'Curses Antidote', mod_version: modVersion,
+                 minecraft_version: '1.21.1', neoforge_version: '21.1.255']
+    inputs.properties props
+    filteringCharset = 'UTF-8'
+    filesMatching('META-INF/neoforge.mods.toml') { expand props }
+}
